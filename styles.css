@@ -1,0 +1,104 @@
+body {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    color: #393e46;
+    font-size: 2vw;
+}
+
+header {
+    background: url("https://image.freepik.com/free-photo/craft-texture-brown-journal-note_1253-671.jpg");
+    font-family: 'PT Serif', serif;
+}
+
+header p {
+    margin-top: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 8vh;
+}
+
+li {
+    margin-bottom: 2vh;
+}
+
+#title {
+    font-size: 5vw;
+    margin: 5vh auto 0 auto;
+}
+
+#main {
+    text-align: center;
+    background: url("https://image.freepik.com/free-photo/craft-texture-brown-journal-note_1253-671.jpg");
+}
+
+#img-div {
+    width: 90vw;
+    text-align: center;
+    /* margin top was set to 0 along with the margin bottom of the h1 in the title to remove white 
+    space between them to merge the backgrounds */
+    margin-top: 0;
+}
+
+#image {
+    max-width: 100%;
+    /* Image was changed to block and margin auto to make the image responsive 
+    and centered within the parent element */
+    display: block;
+    margin: auto;
+}
+
+#img-caption {
+    margin-top: 1vh;
+    font-size: 1.5vw;
+}
+
+#tribute-info {
+    text-align: left;
+    width: 60vw;
+    margin: 8vh auto;
+    padding-bottom: 5vh;
+}
+
+.reference li {
+    font-size: 1.5vw;
+}
+
+footer {
+    font-size: 2vw;
+    margin-bottom: 4vh;
+}
+
+.attribution {
+    font-size: 1.5vw;
+}
+
+
+/* Adjusted font-size and main body width for small screens */
+
+@media (max-width: 900px) {
+    body {
+        font-size: 1.5rem;
+    }
+    #title {
+        font-size: 2.5rem;
+    }
+    #img-caption {
+        font-size: 0.9rem;
+    }
+    #tribute-info {
+        width: 86vw;
+    }
+    .reference li {
+        font-size: 1rem;
+    }
+    footer {
+        font-size: 1.2rem;
+        margin-bottom: 4vh;
+    }
+    .attribution {
+        font-size: 1rem;
+    }
+}
